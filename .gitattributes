@@ -1,0 +1,15 @@
+# Project-specific overrides
+# Text file normalization
+public/** linguist-vendored
+*.jpeg binary
+dist/* linguist-vendored
+**/*.js linguist-detectable
+
+vendor/* linguist-vendored
+
+*.jpg binary
+*.js linguist-detectable
+package-lock.json linguist-generated
+go.sum linguist-generated
+public/index.html linguist-vendored
+*.gif binary
